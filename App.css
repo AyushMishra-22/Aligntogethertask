@@ -1,0 +1,68 @@
+/* Center the table horizontally */
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: lightcoral; /* Add a light red background color */
+  margin-right: 10px;
+}
+
+/* Style the table */
+table {
+  width: 80%; /* Adjust the width as needed */
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white; /* Set the table background color to white */
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style the form */
+form {
+  background-color: white; /* Set the form background color to white */
+  padding: 20px; 
+  border-radius: 5px; 
+}
+
+
+td:last-child {
+  text-align: right;
+}
+
+
+button {
+  background-color: #ffffff;
+  color: #886d6d;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #08d35d;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 10px; 
+  background-color: lightyellow; 
+  padding: 10px; 
+}
